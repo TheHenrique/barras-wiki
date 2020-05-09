@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap');
+.font-playfair{
+    font-family: Playfair Display;
+}
+/* background icons */
+
+.icon-input-img{
+    width: 20px;
+}
+
+.icon-like{
+    width: 18px;
+    height: 18px;
+    float: left;
+    display: inline-block;
+    background: url('../_img/icons/like.svg') left center / 16px no-repeat;
+}
+
+.icon-dislike{
+    width: 18px;
+    height: 18px;
+    float: right;
+    display: inline-block;
+    background: url('../_img/icons/dislike.svg') right center / 16px no-repeat;
+}
+
+/* bg icons links */
+.icon-h3-destack{
+    background: url('../_img/icons/news.svg') left 7px center / 25px no-repeat;
+    padding-left: 38px;
+}
+
+.icon-link-login{
+    background: #007bff url('../_img/icons/user.svg') left 9px center / 18px no-repeat;
+    padding-left: 38px;
+}
+
+.icon-link-login:hover{
+    background: #007bff url('../_img/icons/user.svg') left 9px center / 18px no-repeat;
+}
+
+/* Social midias buttons */
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}  
+
+.fa:hover{
+    background: rgba(255,255,255, .9);
+    text-decoration: none;
+}  
+
+/* footer */
+footer{
+width: 100%;
+height: auto;
+float: left;
+}
+
+div.footer-border{
+    margin: 3rem 0;
+}
+
+/* class color for type notice */
+.Política{
+    color: #dc3545 !important;
+}
+
+.Policia{
+    color: #ffc107 !important;
+}
+
+.Lazer{
+    color: #28a745 !important;
+}
+
+.Esporte{
+    color: #20c997 !important;
+}
+
+.Eventos{
+    color: #e83e8c !important;
+}
+
+.Fotos{
+    color: #17a2b8 !important;
+}
+
+.bg-notice{
+    position: absolute; top: 0px; left: 0px;
+}
+
+/* Remove Name BROWSER from bootstrap */
+.no-after::after{
+    width: 0;
+    display: none !important;
+}
+

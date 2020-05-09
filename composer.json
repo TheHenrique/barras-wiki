@@ -1,0 +1,23 @@
+{
+    "name": "f/ep02",
+    "description": "Abstração de Banco de Dados com Data Layer | PHP tips #02",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FabricioPatrocinio",
+            "email": "fabricioschiffer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+    }
+}
